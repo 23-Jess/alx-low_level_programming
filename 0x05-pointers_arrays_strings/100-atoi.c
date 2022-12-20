@@ -7,7 +7,7 @@
  */
 int _atoi(char *s)
 {
-	int i, d, len, f, digit;
+	int i, d, n, len, f, digit;
 
 	i = 0;
 	d = 0;
@@ -21,7 +21,7 @@ int _atoi(char *s)
 
 	while (i < len && f == 0)
 	{
-		if (s[i] == '-;)
+		if (s[i] == '-')
 			++d;
 		if (s[i] >= '0' && s[i] <= '9')
 		{
