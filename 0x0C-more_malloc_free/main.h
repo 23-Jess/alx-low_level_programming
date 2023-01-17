@@ -14,6 +14,7 @@ int _putchar(char c);
  *
  * Return: Error 98 and exit(98)
  */
+
 int error_exit(void)
 {
 char *err;
@@ -32,7 +33,8 @@ exit(98);
  * @str: string to check
  *
  * Return: 0 is true 1 if false
- * /
+ */
+
 int check_number(char *str)
 {
 while (*str != '\0')
@@ -49,7 +51,8 @@ return (0);
  * @str: string to get length of
  *
  * Return: length of string
- * /
+ */
+
 int _length(char *str)
 {
 int i = 0;
